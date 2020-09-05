@@ -1,0 +1,62 @@
+{
+    "passages": [
+      {
+        "text": "you are on the bridge of the enterprise. Data is at Ops, Geordi is flying the ship\n\n[[Go to the captain's ready room -> Ready Room]]\n[[Go to the turbolift-> turbolift]]\n",
+        "links": [
+          {
+            "name": "Go to the captain's ready room ",
+            "link": " Ready Room",
+            "pid": "2"
+          },
+          {
+            "name": "Go to the turbolift",
+            "link": " turbolift",
+            "pid": "3"
+          }
+        ],
+        "name": "enterprise Bridge",
+        "pid": "1",
+        "position": {
+          "x": "405",
+          "y": "170.5"
+        }
+      },
+      {
+        "text": "You are in the Captain's ready room\n\n[[Go back to the bridge ->enterprise Bridge]] ",
+        "links": [
+          {
+            "name": "Go back to the bridge ",
+            "link": "enterprise Bridge",
+            "pid": "1"
+          }
+        ],
+        "name": " Ready Room",
+        "pid": "2",
+        "position": {
+          "x": "330",
+          "y": "320.5"
+        }
+      },
+      {
+        "text": "you are in the turbolift\n\n[[go back to the bridge ->enterprise Bridge]] ",
+        "links": [
+          {
+            "name": "go back to the bridge ",
+            "link": "enterprise Bridge",
+            "pid": "1"
+          }
+        ],
+        "name": " turbolift",
+        "pid": "3",
+        "position": {
+          "x": "480",
+          "y": "320.5"
+        }
+      }
+    ],
+    "name": "star teak",
+    "startnode": "1",
+    "creator": "Twine",
+    "creator-version": "2.3.9",
+    "ifid": "619151D6-1882-4F98-B16B-C40441C25792"
+  }
